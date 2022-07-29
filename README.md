@@ -9,7 +9,7 @@
 |  string  |  string  |  string  |  string  |  string  |
 
 - 探索の流れ
-```flow
+<div class="flow">
 st=>start: サーバー開始
 sb1=>subroutine: 探索シーケンス
 op=>operation: Tagの取得
@@ -20,5 +20,5 @@ io1=>inputoutput: 100件分のjsonを出力
 e=>end: 終了
  
 st->sb1->op->op1->op2->sb2->io1->e
-```
+</div>
   
