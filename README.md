@@ -19,8 +19,6 @@ sb2=>subroutine: 出力シーケンス
 io1=>inputoutput: 100件分のjsonを出力 
 e=>end: 終了
  
-st->sb1->op->op1->op2
-op2->sb2->io1
-io1->e
+st->sb1->op->op1->op2->sb2->io1->e
 ```
   
