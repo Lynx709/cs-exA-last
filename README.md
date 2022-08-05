@@ -22,3 +22,8 @@ graph TD;
     io1[100件分のjsonの出力]-->e[終了];
 ```
 
+### 実装の軌跡
+1 csvの圧縮
+2 サーバー構築工程
+3 raspberryPi上での動作確認とbugfix
+
